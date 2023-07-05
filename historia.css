@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+background-size: cover;
+background-color: cream;
+
+
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 900px;
+	margin: 30px auto;
+	background: black;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 20px;
+	color: #hotpink;
+	font-family: 'Arial Helvetica';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color:  #ef8354;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #ef8354;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 10;
+	background: black;
+}
+/*Nosotros*/
+.submenu1{
+	position: absolute;
+	background: #ef8354;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 10;
+	background: black;
+}
+/*Servicios*/
+.submenu2{
+	position: absolute;
+	background: #ef8354;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+
+}
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 10;
+	background: black;
+}
+/* oferta educativa*/
+.submenu3{
+	position: absolute;
+	background: #ef8354;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+
+}
+
+.submenu3 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu3{
+	visibility: visible;
+	opacity: 10;
+	background: black;
+}
+
+/* Tecnicos*/
+.submenu4{
+	position: absolute;
+	background: #ef8354;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+
+}
+.submenu4 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.menu li:hover .submenu4{
+	visibility: visible;
+	opacity: 10;
+	background: hotpink;
+}
+
+/*Instalacion*/
+.submenu5{
+	position: absolute;
+	background: #ef8354;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu5 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.menu li:hover .submenu5{
+	visibility: visible;
+	opacity: 10;
+	background: black;
+}
+/*Inscripciones*/
+.submenu6{
+	position: absolute;
+	background: #ef8354;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	
+}
+.submenu6 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu6{
+	visibility: visible;
+	opacity: 10;
+	background: dimgray;
+	display: block;
+}
